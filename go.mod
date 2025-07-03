@@ -1,8 +1,6 @@
 module github.com/ncruces/go-sqlite3
 
-go 1.21
-
-toolchain go1.22.5
+go 1.23.0
 
 require (
 	github.com/dchest/siphash v1.2.3
@@ -10,10 +8,10 @@ require (
 	github.com/ncruces/sort v0.1.2
 	github.com/psanford/httpreadat v0.1.0
 	github.com/tetratelabs/wazero v1.7.3
-	golang.org/x/crypto v0.24.0
-	golang.org/x/sync v0.7.0
-	golang.org/x/sys v0.22.0
-	golang.org/x/text v0.16.0
+	golang.org/x/crypto v0.35.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/text v0.22.0
 	lukechampine.com/adiantum v1.1.1
 )
 
